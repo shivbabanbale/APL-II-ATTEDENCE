@@ -1,0 +1,87 @@
+body{
+    border: 10px solid rgb(52, 78, 61);
+}
+
+
+h1{
+    text-align: center;
+}
+
+.num{
+    color: rgb(15, 41, 41);
+    text-shadow: 20px 20px 20px black ;
+}
+
+.mincard{
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(34, 116, 164);
+    background-color: rgb(19, 198, 132);
+    margin: 30px;
+    color: white;
+    margin-top: 50px;
+    padding: 30px;
+}
+.mincard:hover{
+    scale: 1.1;
+    
+    background-color: rgb(139, 188, 41);
+}
+ul{ 
+
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.ll{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    animation:colorAnimate 1.5s 0s infinite;
+    color: white;
+ 
+    
+    
+
+
+}
+
+ @keyframes colorAnimate {
+    
+    0%{
+    scale: 0.8;
+    color: black;
+    
+    }
+   
+    
+    50%{
+        scale: 1.5;
+        color: blueviolet;
+    }
+    100%{
+    
+        scale: 1.6;
+        color:red;
+    }
+    }  
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+    text-shadow: 10px 10px 10px rgb(116, 116, 219) ;
+}
+    span{
+        scale: 0.5;
+    }
+
+    p{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 800;
+        text-shadow: 1px 1px 2px black,0 0 25px blue,0 0 5px darkblue ;
+    }
