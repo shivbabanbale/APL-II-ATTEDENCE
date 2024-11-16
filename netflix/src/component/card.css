@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0% ;
+}
+
+.img1{
+    height:250px;
+    width:200px;
+    border:2px solid black;
+    background-size: cover;
+}
+img{
+    background-size: cover;
+}
+.data{
+    margin-left: 10px;
+}
+
+
+.card_box{
+    margin: 50px;
+}

@@ -1,0 +1,57 @@
+body{
+    background: rgb(62,195,34);
+background: linear-gradient(0deg, rgba(62,195,34,0.8856792717086834) 0%, rgba(253,156,45,0.9977240896358543) 100%);
+}
+.bigdiv{
+display: flex;
+justify-content: center;
+
+}.inputbox{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 10px;
+    align-items: center;
+    /* border:2px solid black; */
+    /* height: 200px; */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+
+}
+
+.in1{
+   width: 80%;
+   height: 50px;
+   margin: 30px;
+   border-radius: 5px;
+   background-color: rgb(223, 211, 54);
+
+
+}
+.in2{
+   width: 80%;
+   height: 80px;
+   margin-left: 30px;
+   margin-bottom: 20px;
+   background-color: rgb(133, 214, 98);
+
+    border-radius: 5px;
+
+
+}
+.buttu{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(38, 192, 136);
+    border-radius: 5px;
+cursor: pointer;
+
+}
+.buttu:hover{
+background-color: greenyellow;
+}
+.btn{
+    text-align: center;
+}
